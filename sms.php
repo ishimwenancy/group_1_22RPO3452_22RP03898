@@ -22,7 +22,7 @@ class Sms {
                 'username' => "sandbox", // Change to your live username in production
                 'to' => $recipients, // Use international format for phone numbers
                 'message' => $message,
-                'from' => "M-Money"	// Use your approved sender ID
+                'from' => "M-Money"	
             ]);
             return $result;
         } catch (Exception $e) {
