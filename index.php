@@ -19,7 +19,6 @@ if (!$sessionId || !$phoneNumber || !$serviceCode) {
     echo "END Invalid request parameters";
     exit;
 }
-
 try {
     $db = new Database();
     $conn = $db->getConnection();
