@@ -13,7 +13,7 @@
  * (For demo purposes, we simulate DB operations using a global array (or a file) and log (or echo) the transaction.)
  */
 
-// (Global constants (or config) for fees and initial balance – in production, use a config file or DB.)
+// (Global constants (or config) for fees and initial balance – in production, use a config file or DB.)/
 define("INITIAL_BALANCE", 1000.00);
 define("DEPOSIT_FEE", 20.00);
 define("WITHDRAW_FEE", 200.00);
